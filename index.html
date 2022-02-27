@@ -56,10 +56,16 @@
             </div>
         </div>
         <div class="search-area container">
-            <input type="text" placeholder="Pleace search your food...">
-            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            <input id="input-field" type="text" placeholder="Pleace search your food...">
+            <button onclick="loadFoods()"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+
+        <!-- result container  -->
+        <div id="search-result" class="container">
+
         </div>
     </main>
+    <script src="js/app.js"></script>
 </body>
 
 </html>

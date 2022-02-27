@@ -117,3 +117,23 @@ ul li a:hover{
     background-color: #f56163da;
     color: white;
 }
+#search-result{
+    margin-top: 40px;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.foods{
+    margin-bottom: 50px;
+    /* background-color: rgba(255, 255, 255, 0.479); */
+    border-radius: 10px;
+    grid-row-gap: 30px;
+    grid-column-gap: 40px;
+
+
+    /* width: 350px; */
+    padding: 10px;
+}
+.foods img{
+    margin-bottom: 10px;
+}
