@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&family=Poppins:wght@400;500&family=Raleway:wght@400;500;600;800&family=Roboto:wght@400;500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+}
+nav{
+    height: 90px;
+    background-color: #31261c;
+    display: flex;
+    justify-content: center;
+}
+body{
+    background-color: #2c2014;
+}
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    width: 1250px;
+}
+.menu-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    
+}
+.container ul li{
+    display: inline-block;
+    margin-right: 30px;
+    position: relative;
+}
+#active{
+    background-color: #ba2c2e;
+    padding: 6px 12px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+ul li a:hover{
+     background-color: #ba2c2e;
+    padding: 6px 12px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.menu{
+    display: flex;
+}
+.menu input{
+    width: 120px;
+    height: 30px;
+    padding-left: 10px;
+}
+.banner{
+    display: flex;
+}
+.headings{
+    color: white;
+}
+.banner h2{
+    text-align: center;
+    margin: 50px 0px 10px 0px;
+}
+.banner p{
+    text-align: justify;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.banner span{
+    display: block;
+    text-align: center;
+    font-size: 18px;
+}
+.headings img{
+    width: 60px;
+}
+.headings button{
+    border: none;
+    background-color: #f1ba38;
+    padding: 5px 15px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#button{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+}
+.search-area input{
+    width: 350px;
+    height: 40px;
+    padding-left: 10px;
+    outline: none;
+}
+.search-area{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.search-area button{
+    width: 50px;
+    cursor: pointer;
+    border: none;
+    border-left: 1px solid gray;
+    /* border-radius: 5px; */
+    /* height: 40px; */
+    /* border-radius: 5px; */
+}
